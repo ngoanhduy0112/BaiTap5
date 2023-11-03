@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+.content{
+    display: flex;
+    background-color: gainsboro;
+    max-width: 100%;
+    margin: auto;
+    height: 700px;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding-left: 200px;
+    padding-bottom: 250px;
+}
+.name-content{
+    color: blue;
+    font-family: inherit;
+    font-size: 30px;
+}
+.name-content p{
+    color: black;
+    font-size: 25px;
+}
+.form{
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-top: 130px;
+    margin-bottom: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+form input{
+    height: 55px;
+    width: 90%;
+    border:  1px solid #CCC;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding: 0 14px;
+    font-size: 1rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* text-align: center; */
+    display: inline-block;
+
+    
+}
+form input:focus{
+    outline: none;
+    border-color: #1877f2;
+    
+}
+
+::placeholder{
+    color: #777;
+    font-size: 1.063rem;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    width: 90%;
+}
+.link .login{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #1877f2;
+    padding: 15px 0;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+.link .login:hover{
+    background: #0d65d9;
+}
+form a{
+    text-decoration: none;
+}
+.link .forgot{
+    color: #1877f2;
+    font-size: 0.875rem;
+}
+.link .forgot:hover{
+    text-decoration: underline;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #CCC;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.button{
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button a{
+    padding: 15px 20px;
+    background: #42b77a;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1.063rem;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+.button a:hover{
+    background: #3ba626;
+}
+.footter{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
